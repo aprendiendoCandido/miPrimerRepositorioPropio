@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login Form</title>
+  <style>
+    .error {
+      color: red;
+      margin: 0;
+    }
+    .field {
+      margin-bottom: 12px;
+    }
+  </style>
+</head>
+<body>
+    <h2>Login</h2>
+    <form id="loginForm">
+        <div class="field">
+        <input type="text" id="username" placeholder="Username">
+        <p id="nameError" class="error"></p>
+        </div>
+        <div class="field">
+        <input type="password" id="password" placeholder="Password">
+        <p id="passwordError" class="error"></p>
+        </div>
+        <div class="field">
+        <input type="password" id="confirm" placeholder="Confirm Password">
+        <p id="confirmError" class="error"></p>
+        </div>
+        <button type="submit">Login</button>
+        <p id="requeridos" class="error"></p>
+        <p id="message"></p>
+    </form>
+    <script src="task15DAM.js"></script>
+</body>
+</html>
